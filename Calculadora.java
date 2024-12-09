@@ -15,6 +15,19 @@ public class Calculadora {
             System.out.println("5. División (Residuo)");
             System.out.println("6. Salir");
             System.out.print("Seleccione una opción: ");
+
+             opcion = scanner.nextInt();
+
+            if(opcion >= 1 && opcion <= 5){
+                
+                System.out.print("Ingrese el primer número: ");
+                double num1 = scanner.nextDouble();
+                System.out.print("Ingrese el segundo número: ");
+                double num2 = scanner.nextDouble();
+
+            }
+
+
         }
     }
 }
