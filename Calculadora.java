@@ -52,7 +52,17 @@ public class Calculadora {
                         break;
                 }
 
+            }else if (opcion == 6) {
+               
+                System.out.println("Saliendo del programa. ¡Adiós!");
+                salir = true;
+            } else {
+               
+                System.out.println("Opción inválida. Por favor, seleccione una opción entre 1 y 6.");
             }
+
+            System.out.println(); 
+        }
 
 
         }
