@@ -6,7 +6,7 @@ public class Calculadora {
         int opcion;
         boolean salir = false;
 
-        while (!salida){
+        while (!salir) {
             System.out.println("=== Menú de Calculadora ===");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
